@@ -1,8 +1,17 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "server",
+  "account_id": "06a35df5083690940d2c7dd2f214c2f2",
+  "name": "hono-drizzle-boilerplate",
   "main": "src/index.ts",
   "compatibility_date": "2026-02-05",
+  "compatibility_flags": ["nodejs_compat"],
+  "hyperdrive": [
+    {
+      "binding": "HYPERDRIVE",
+      "id": "10fc11f7e6ab46208ac45dd728d02fdc",
+      "localConnectionString": "postgresql://postgres:postgres@localhost:5432/postgres",
+    },
+  ],
   // "compatibility_flags": [
   //   "nodejs_compat"
   // ],
