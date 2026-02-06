@@ -12,9 +12,12 @@
       "localConnectionString": "postgresql://postgres:postgres@localhost:5432/postgres",
     },
   ],
-  // "compatibility_flags": [
-  //   "nodejs_compat"
-  // ],
+  "observability": {
+    "logs": {
+      "enabled": false,
+      "invocation_logs": true,
+    },
+  },
   // "vars": {
   //   "MY_VAR": "my-variable"
   // },
